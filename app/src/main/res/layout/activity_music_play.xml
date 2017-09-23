@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chalilayang.audioplayerdemo.MusicPlayActivity">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0.33"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="0.5"
+        app:layout_constraintLeft_toRightOf="@+id/button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="23dp"
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        app:layout_constraintLeft_toRightOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintLeft_toRightOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintLeft_toRightOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="pause"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:layout_marginStart="8dp"/>
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="选择音频文件"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        android:layout_marginStart="8dp"/>
+</android.support.constraint.ConstraintLayout>
